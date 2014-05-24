@@ -1,0 +1,126 @@
+html,div,body,p {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url('blazar.gif');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center top;
+	background-size: cover;
+}
+
+.logo {
+	color: white;
+	float: left;
+}
+
+.logoh1 {
+	font-size: 4rem;
+	letter-spacing: -1px;
+	font-weight: 800;
+	margin: 0;
+	padding: 0;
+	margin-left: 10px;
+}
+
+.over {
+	margin: 0 auto;
+	background: rgba(0,0,0,0.2);
+	color: white;
+	width: 90%;
+	padding: 1em;
+	font-size: 10pt;
+	line-height: 16pt;
+	z-index: 0;
+}
+
+.slogan {
+	float: left;
+	bottom: 0;
+	margin: 50px 0 0 0;
+	vertical-align: middle;
+	font-style: italic;
+	font-weight: 800;
+	color: yellow;
+}
+
+.clear {
+	clear: both;
+}
+
+.center {
+	text-align: center;
+	text-indent: 0;
+}
+
+.repo {
+	font-size: 3em;
+	text-align: center;
+	text-decoration: none;
+	color: yellow;
+	font-weight: 800;
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+a {
+	text-decoration: none;
+	color: yellow;
+}
+
+ul {
+	list-style-type: disc;
+}
+
+ul li {
+	position: relative;
+	padding-left: 0;
+	text-indent: -2px;
+	margin-left: 10px;
+}
+
+.donate {
+	z-index: 100;
+	background-color: yellow;
+	color: black;
+	border-radius: 50%;
+	width: 95px;
+	height: 95px;
+	vertical-align: middle;
+	text-align: center;
+	float: right;
+	position: fixed;
+	left: -webkit-calc(100% - 110px);
+	margin-top: 10px;
+	padding: 0;
+	opacity: .7;
+}
+
+.donate img {
+	padding: 0;
+	margin: 0;
+	margin-top: -2px;
+	margin-left: -2px;
+}
+
+input[type=submit] {
+	text-transform: capitalize;
+	font-weight: 800;
+	font-style: italic;
+	width: 100%;
+	height: 60px;
+	border-radius: 8px;
+	border: 2px solid #f8981D;
+	color: #004599;
+	text-shadow: none;
+	background-color: #f8981D;
+	font-size: 28pt;
+	outline: none;
+	cursor: pointer;
+}

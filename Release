@@ -1,0 +1,7 @@
+Origin: Blazar
+Label: Blazar
+Suite: stable
+Version: 1.0
+Codename: blazar
+Architecture: iphoneos-arm
+Components: main

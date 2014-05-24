@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>() Details</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+	<link rel="stylesheet" href="style.css" />
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+</head>
+<body>
+	
+
+	
+
+	
+<!-- MAIN PAGE -->
+<div data-role="page" id="front" class="depiction" data-title="Details">
+	<div data-role="content">
+		<ul data-role="listview" data-inset="true">
+			<li data-role="list-divider">() iPhone+iPad theme</li>
+		    <li><a href="#info" target="_blank"><img src="img/info.svg" alt="Info" class="ui-li-icon">Info</a></li>
+		    <li><a href="#screens" target="_blank"><img src="img/screens.svg" alt="Screenshots" class="ui-li-icon">Screenshots</a></li>
+		    <li><a href="#video" target="_blank"><img src="img/video.svg" alt="Video" class="ui-li-icon">Videos</a></li>
+		</ul>
+		<ul data-role="listview" data-inset="true">
+			<li data-role="list-divider">Help</li>			
+		    <li><a href="#instructions" target="_blank"><img src="img/nb.svg" alt="instructions" class="ui-li-icon">Instructions</a></li>
+		    <li><a href="#faq" target="_blank"><img src="img/question.svg" alt="FAQ" class="ui-li-icon">FAQ</a></li>
+		</ul>
+		<ul data-role="listview" data-inset="true">
+			<li data-role="list-divider">About</li>			
+		    <li><a href="#authors" target="_blank"><img src="img/profile.svg" alt="Authors" class="ui-li-icon ui-corner-none">Authors</a></li>
+		    <li><a href="#contribute" target="_blank"><img src="img/heart.svg" alt="Contribute" class="ui-li-icon">Contribute/request/resources</a></li>
+		</ul>
+		<ul data-role="listview" data-inset="true">
+			<li data-role="list-divider">Support me. Thanks:)</li>
+			<li>
+				<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+					<input type="hidden" name="cmd" value="_s-xclick">
+					<table>
+					<tr><td><select name="os0">
+						<option>Amount, Montant, Cantidad</option>
+						<option value="1$">$1 USD</option>
+						<option value="2$">$2 USD</option>
+						<option value="5$">$5 USD</option>
+						<option value="10$">$10 USD</option>
+						<option value="20$">$20 USD</option>
+					</select> </td></tr>
+					</table>
+					<input type="hidden" name="currency_code" value="USD">
+					<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----
+MIIHPwYJKoZIhvcNAQcEoIIHMDCCBywCAQExggE0MIIB
+MAIBADCBmDCBkjELMAkGA1UEBhMCVVMxCzAJBgNVBAgT
+AkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYD
+VQQKEwtQYXlQYWwgSW5jLjEVMBMGA1UECxQMc3RhZ2Ux
+X2NlcnRzMRMwEQYDVQQDFApzdGFnZTFfYXBpMRwwGgYJ
+KoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tAgEAMA0GCSqG
+SIb3DQEBAQUABIGAiJLqJ8905lNbvKoa715KsOJtSOGy
+4d6fEKV7+S8KU8E/RK0SFmMgGPRpmXdzx9MXCU43/tXj
+lyuyOeZQUBaAIaWoNpfZmBUYIvJVh4W+bDH6JUkugelp
+CaTjxXOx/F1qj79D9z06AK+N3yW1fM41fM7X9Q1Bc12g
+THjJUKXcIIcxCzAJBgUrDgMCGgUAMIGkBgkqhkiG9w0B
+BwEwFAYIKoZIhvcNAwcECOsHG9QOvcJFgIGAwmbN5Acd
+cnCH0ZTnsSOq5GtXeQf0j2jCBCg6y7b4ZXQwgdqUC/7x
+eb0yicuiRVuRB9WLr/0rGFuSYENpKVUqWYjnlg3TsxLP
+IxDCp6lfFqsrclppyZ9CP+xim7y0qKqZZufJG8HgCHxk
+3BPD6LqByjQjDVpqKKmCNJ1HlwXGN+SgggOWMIIDkjCC
+AvugAwIBAgIBADANBgkqhkiG9w0BAQQFADCBkzELMAkG
+A1UEBhMCVVMxCzAJBgNVBAgTAkNBMREwDwYDVQQHEwhT
+YW4gSm9zZTEPMA0GA1UEChMGUGF5UGFsMRwwGgYDVQQL
+ExNTeXN0ZW1zIEVuZ2luZWVyaW5nMRMwEQYDVQQDEwpT
+b3V2aWsgRGFzMSAwHgYJKoZIhvcNAQkBFhFzb3VkYXNA
+cGF5cGFsLmNvbTAeFw0wNDA1MjExODE4NTBaFw0wNDA2
+MjAxODE4NTBaMIGTMQswCQYDVQQGEwJVUzELMAkGA1UE
+CBMCQ0ExETAPBgNVBAcTCFNhbiBKb3NlMQ8wDQYDVQQK
+EwZQYXlQYWwxHDAaBgNVBAsTE1N5c3RlbXMgRW5naW5l
+ZXJpbmcxEzARBgNVBAMTClNvdXZpayBEYXMxIDAeBgkq
+hkiG9w0BCQEWEXNvdWRhc0BwYXlwYWwuY29tMIGfMA0G
+CSqGSIb3DQEBAQUAA4GNADCBiQKBgQDatyhVzmVe+kCN
+tOSNS+c7p9pNHlFGbGtIWgIAKSOVlaTk4JD/UAvQzYnn
+eWPUk+Xb5ShTx8YRDEtRtecy/PwSIIrtS2sC8RrmjZxU
+uNRqPB6y1ahGwGcNd/wOIy3FekGE/ctX7oG6/Voz/E2Z
+EyJaPm7KwYiDQYz7kWJ6eB+kDwIDAQABo4HzMIHwMB0G
+A1UdDgQWBBQx23WZRMmnADSXDr+P7uxORBdDuzCBwAYD
+VR0jBIG4MIG1gBQx23WZRMmnADSXDr+P7uxORBdDu6GB
+maSBljCBkzELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNB
+MREwDwYDVQQHEwhTYW4gSm9zZTEPMA0GA1UEChMGUGF5
+UGFsMRwwGgYDVQQLExNTeXN0ZW1zIEVuZ2luZWVyaW5n
+MRMwEQYDVQQDEwpTb3V2aWsgRGFzMSAwHgYJKoZIhvcN
+AQkBFhFzb3VkYXNAcGF5cGFsLmNvbYIBADAMBgNVHRME
+BTADAQH/MA0GCSqGSIb3DQEBBAUAA4GBAIBlMsXVnxYe
+ZtVTG3rsVYePdkMs+0WdRd+prTK4ZBcAkCyNk9jCq5dy
+VziCi4ZCleMqR5Y0NH1+BQAf8vxxcb4Z7p0rryXGb96f
+ZfkSYd99a4qGKW3aSIsc2kpaC/ezQg8vuD6JSo6VhJIb
+Zn0oWajvkHNMENOwN/Ym5stvAxtnMYIBnzCCAZsCAQEw
+gZkwgZMxCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTER
+MA8GA1UEBxMIU2FuIEpvc2UxDzANBgNVBAoTBlBheVBh
+bDEcMBoGA1UECxMTU3lzdGVtcyBFbmdpbmVlcmluZzET
+MBEGA1UEAxMKU291dmlrIERhczEgMB4GCSqGSIb3DQEJ
+ARYRc291ZGFzQHBheXBhbC5jb20CAQAwCQYFKw4DAhoF
+AKBdMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJ
+KoZIhvcNAQkFMQ8XDTA0MDUyNjE5MTgxNFowIwYJKoZI
+hvcNAQkEMRYEFI2w1oe5qvHYB0w9Z/ntkRcDqLlhMA0G
+CSqGSIb3DQEBAQUABIGAimA3r6ZXmyynFGF5cOj6E1Hq
+Ebtelq2tg4HroAHZLWoQ3kc/7IM0LCuWZmgtD5739NSS
+0+tOFSdH68sxKsdooR3MFTbdzWhtej5fPKRa6BfHGPjI
+9R9NoAQBmaeUuOiPSeVTzXDOKDbZB0sJtmWNeueTD9D0
+BOu+vkC1g+HRToc=
+-----END PKCS7-----
+					">
+					<input id="ppimg" type="image" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+					<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+					<a id="ppcss" data-role="button" data-theme="e"><i>Pay Now</i></a>
+					<img id="pppretty" width="250px" src="img/paypal.jpg" border="0" alt="PayPal Acceptance Mark">
+				</form>
+			</li>
+		</ul>
+		<p style="text-align:center;padding-bottom: 30px;padding-top: 0px;text-shadow: none;"><span style="font-size: 12px;"><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/andreaslarsen/Cydia-JQM-Depictions" target="_blank" rel="dct:source">Cydia JQM Depictions</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://andreaslarsen.dk" property="cc:attributionName" rel="cc:attributionURL" target="_blank">Andreas</a> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">[CC BY-NC-SA]</a></span></p>	
+	</div>
+</div>
+
+
+
+
+<!-- INFO -->
+<div data-role="page" id="info" class="depiction" data-title="() Info">
+	<div data-role="content">
+		<ul data-role="listview" data-inset="true">
+			<li data-role="list-divider">General info</li>
+			<li>
+				<h1>()</h1>
+				<p>Works on all iPhones + iPads</p>
+				<p>Free but please consider donating if you like it</p>
+				<p>Resources, issues, icon requests etc. is all on github.com/andreaslarsen/parentheme</p>
+			</li>
+			<li data-role="list-divider">Themes</li>
+			<li>
+				<h1>() Main</h1>
+				<p>Themes the popups, lockscreen keypads</p>
+				<p>notification centre and more</p>
+			</li>
+			<li>
+				<h1>() LS</h1>
+				<p>iPhone only for now. See <a href="#instructions">instructions</a> for details.</p>
+			</li>
+			<li>
+				<h1>() Black, White and White BG</h1>
+				<p>Black icons</p>
+				<p>White icons</p>
+				<p>White icons with black translucent bg</p>
+			</li>
+			<li data-role="list-divider">Folder Icons</li>
+			<li>
+				<h1>() Black/White Folder Icons</h1>
+				<p>You need the FolderIcons beta tweak from http://cydia.myrepospace.com/Vertex first.</p>
+			</li>
+		</ul>
+        </div>
+</div>
+
+
+
+
+
+<!-- SCREENSHOTS -->
+<div data-role="page" id="screens" class="depiction" data-title="() Screenshots">
+	<div data-role="content">
+        	<div class="ssframe"><img class="ss" src="ss/2.jpg" /></div>
+        	<div class="ssframe"><img class="ss" src="ss/1.jpg" /></div>
+		<img class="ss" src="ss/4.jpg" width="49%" style="float:right" />
+		<img class="ss" src="ss/3.jpg" width="49%" />
+		<img class="ss" src="ss/6.jpg" width="49%" style="float:right" />
+		<img class="ss" src="ss/5.jpg" width="49%" />
+		<img class="ss" src="ss/7.jpg" width="49%" />
+        </div>
+</div>
+
+
+
+
+
+<!-- VIDEOS -->
+<div data-role="page" id="video" class="depiction" data-title="() Video">
+	<div data-role="content">
+		<ul data-role="listview" data-inset="true">
+		    <li data-role="list-divider">Introducing ()</li>
+		    <li>
+			<div class="video-container">
+				<iframe id="iframe" src="http://www.youtube.com/embed/ESwPMeW2Z3g?rel=0&vq=large&color=red&autoplay=0&wmode=transparent&theme=light&showinfo=0&origin=http://andreaslarsen.dk/"></iframe>
+			</div>			
+		    </li>
+		</ul>
+		<ul data-role="listview" data-inset="true">
+		    <li data-role="list-divider">Setting up the () LS</li>
+		    <li>
+			<div class="video-container">
+				<iframe id="iframe" src="http://www.youtube.com/embed/4o3vuDmZiDo?rel=0&vq=large&color=red&autoplay=0&wmode=transparent&theme=light&showinfo=0&origin=http://andreaslarsen.dk/"></iframe>
+			</div>			
+		    </li>
+		</ul>
+        </div>
+</div>
+
+
+
+
+
+<!-- INSTRUCTIONS -->
+<div data-role="page" id="instructions" class="depiction" data-title="() Instructions">
+	<div data-role="content">
+		<ul data-role="listview" data-inset="true">
+			<li data-role="list-divider">() LS</li>
+			<li>
+				<h1>Tweaks needed</h1>
+				<p><i>Wallpaper JPEGifier</i> to change wallpaper</p>
+				<p><i>file:// for MobileSafari</i> if you can't access settings</p>
+				<p><i>Themeready</i> to hide the date</p>
+				<p><i>Bytafont</i> to hide the clock with custom font</p>
+			</li>
+			<li>
+				<h1>Settings</h1>
+				<p>Press the new icon on your homescreen</p>
+				<p>Choose your settings and press save</p>
+			</li>
+			<li>
+				<h1>Wallpaper</h1>
+				<p>Change wallpaper using Apple Preferences app</p>
+				<p>Respring</p>
+			</li>
+			<li>
+				<h1>Hide default clock and <br>move notifications to the top</h1>
+				<p>Use <i>ThemeReady</i> to hide the date</p>
+				<p>Install+activate () Font from this repo</p>
+				<br />
+				<p>NB: Use Source Sans font from circul8 if you don't use the html lockscreen</p>
+			</li>
+			<li data-role="list-divider">Github</li>
+			<li><a href="https://github.com/andreaslarsen/parentheme/wiki" target="_blank">
+				<h1>Wiki</h1>
+				<p>More instructions and pro tips</p>
+				<p>github.com/andreaslarsen/parentheme/wiki</p>
+			</a></li>
+			<li><a href="https://github.com/andreaslarsen/parentheme" target="_blank">
+				<h1>Extras</h1>
+				<p>Free stuff not added to the repo</p>
+				<p>github.com/andreaslarsen/parentheme</p>
+			</a></li>
+		</ul>
+        </div>
+</div>
+
+
+
+
+
+<!-- FAQ -->
+<div data-role="page" id="faq" class="depiction" data-title="() FAQ">
+	<div data-role="content">
+		<ul data-role="listview" data-inset="true">
+			<li data-role="list-divider">FAQ</li>
+			<li>
+				<h1>I'd like to request something</h1>
+				<p>Icons, feature etc. - all on github.com/andreaslarsen/parentheme</p>
+			</li>
+			<li>
+				<h1>My LS wallpaper is black</h1>
+				<p>Install Wallpaper JPEGifier, change wallpapers using settings.app and respring using winterboard afterwards.</p>
+			</li>
+		</ul>
+	</div>
+</div>
+
+
+
+
+
+<!-- AUTHORS -->
+<div data-role="page" id="authors" class="depiction" data-title="() Authors">
+    <div data-role="content">
+        <ul data-role="listview" data-inset="true">
+		<li>
+			<img class="profilepic" src="img/Andreas.jpeg">
+			<h2>Andreas Larsen</h2>
+			<p>Creator, designer, maintainer etc.</p>
+		</li>
+		<li><a href="https://twitter.com/intent/user?screen_name=andreaslarsendk" target="_blank"><img src="img/twitter.svg" alt="Info" class="ui-li-icon">@andreaslarsendk</a></li>
+		<li><a href="mailto://andreaslarsen86@gmail.com" target="_blank"><img src="img/mail.svg" alt="Info" class="ui-li-icon">andreaslarsen86@gmail.com</a></li>
+		<li><a href="http://andreaslarsen.dk" target="_blank"><img src="img/al.svg" alt="Info" class="ui-li-icon">andreaslarsen.dk</a></li>
+	</ul>
+        <ul data-role="listview" data-inset="true">
+		<li>
+			<img class="profilepic" src="img/Patrick.jpeg">
+			<h2>Patrick</h2>
+			<p>() LS Code, build, host</p>
+		</li>
+	</ul>
+        <ul data-role="listview" data-inset="true">
+		<li>
+			<h2>You?</h2>
+			<p>() is open source<br />github.com/andreaslarsen/parentheme</p>
+		</li>
+		<li><a href="https://github.com/andreaslarsen/parentheme">Go to github</a></li>
+        </ul>            
+    </div>
+</div>
+
+
+
+
+
+<!-- CONTRIBUTE -->
+<div data-role="page" id="contribute" class="depiction" data-title="() Github">
+	<div data-role="content">
+		<ul data-role="listview" data-inset="true">
+			<li data-role="list-divider">github.com/andreaslarsen/parentheme</li>
+			<li><a href="https://github.com/andreaslarsen/parentheme" target="_blank">
+				<h1>Open source</h1>
+				<p>Free .psd resources for e.g. icons</p>
+				<p>Use issues for bugs, suggestions etc.</p></a>
+			</li>
+		</ul>
+        </div>
+</div>
+
+
+
+
+</body>
+</html>
